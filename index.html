@@ -24,38 +24,16 @@
                 padding: 0;
                 margin: 0;
             }
-            .headerArea{
-                width: 87%;
-                height: 80px;
-                background-color: #ffffff;
-                position:absolute;
-                top: 0;
-                right: 0;
-                padding: 0;
-                margin: 0;
-            }
-            .headerHeading{
-                line-height: 80px;
-                color: #000000;
-                margin: 0;
-                padding-left: 20px;
-                display: inline-block;
-            }
-            .headerQuickAccessBlock{
-                display: inline-block;
-                margin: 0;
-                line-height: 80px;
-                padding: 0 5px 0 5px;
-            }
-            .QuickAccessBlockArea{
-                display: inline-block;
-                position: absolute;
-                right: 220px;
+            .infoBox{
+                height: 300px;
+                width: 500px;
+                float: left;
+                margin-top: 15em;
             }
             .footerArea{
                 width: 100%;
                 height: 40px;
-                background-color: rgb(255, 255, 255);
+                background-color: rgba(235, 235, 235, 0.80);
                 line-height: 40px;
                 position:absolute;
                 bottom: 0;
@@ -67,19 +45,22 @@
             }
         </style>
     </head>
-
     <body>
-        <div class="headerPosition">
-            <header class="headerArea">
-                <p class="headerHeading">United International College HomeBrew Computer Club</p>
-                <div class="QuickAccessBlockArea">
-                    <div class="headerQuickAccessBlock"><a class="btn btn-outline-primary" href="https://tools.uichcc.com/">Tools Index</a></div>
-                    <div class="headerQuickAccessBlock"><a class="btn btn-outline-primary" href="#">Blog <span style="font-size: small">(Coming Soon)</span></a></div>
-                    <div class="headerQuickAccessBlock"><a class="btn btn-outline-primary" href="#">About</a></div>
+        <div class="container">
+            <div class="infoBox">
+                <div class="card">
+                    <h3 class="card-header">HomeBrew Computer Club</h3>
+                    <div class="card-block">
+                        <img src="uichccblack.svg" width="60%">
+                        <p class="card-text">United International College</p>
+                        <br>
+                        <a href="https://tools.uichcc.com" class="btn btn-primary">Tools</a>
+                        <button href="#" class="btn btn-warning" disabled="disabled">Blog (Coming Soon)</button>
+                    </div>
                 </div>
-            </header>
-            <img src="uichccwhite.svg" height="80px">
+            </div>
         </div>
+
         <footer class="footerArea">
             <div class="container">
                 <p class="footerDescription">&copy; Copyright UICHCC 2017 All rights reserved. |
