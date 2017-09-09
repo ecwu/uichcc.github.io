@@ -1,4 +1,10 @@
 .idea/
 
+<<<<<<< HEAD
 hexo/
 node_modules/
+=======
+blog/
+node_modules/
+hexo/
+>>>>>>> c798377... upload the new design
