@@ -11,10 +11,14 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+<<<<<<< HEAD
 
     <!-- Font-awesome CSS -->
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+=======
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+>>>>>>> 502940fa73ac2fdb1947859b0fe2bddc1da0d1c5
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -151,7 +155,11 @@
       <hr class="featurette-divider">
       <!-- FOOTER -->
       <footer>
+<<<<<<< HEAD
         <p class="float-lg-right"><a href="https://github.com/UICHCC"><i class="fa fa-github"></i> Fork us on GitHub</a></p>
+=======
+        <p class="float-right"><a href="https://github.com/UICHCC"><i class="fa fa-github"></i>Fork us on GitHub</a></p>
+>>>>>>> 502940fa73ac2fdb1947859b0fe2bddc1da0d1c5
         <p>&copy; 2017 Homebrew Computer Club @ UIC &middot; <a href="http://www.miitbeian.gov.cn/">粤 ICP 备 15011948 号 - 2</a></p>
       </footer>
 
