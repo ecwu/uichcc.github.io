@@ -12,6 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font-awesome CSS -->
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -122,25 +125,33 @@
         <div class="col">
           <h2 class="featurette-heading">Join us. <span class="text-muted">We'll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          <a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a>
+          	<p>
+			  <button class="btn btn-lg btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+			    Sign up today
+			  </button>
+			</p>
+			<div class="collapse" id="collapseExample">
+			  <div class="card card-body">TEST</div>
+			</div>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-      <div class="thx">
-        <a href="http://fontello.com/"><img src="img/thx/fontello.svg" height="30px"></a>
-        <a href="http://www.bootcdn.cn/"><img src="img/thx/bootcdn.svg" height="30px"></a>
-        <a href="https://getbootstrap.com/"><img src="img/thx/boostrap.svg" height="30px"></a>
-        <a href="https://sm.ms/"><span height="50px">SM.MS Image Storage Service</span></a>
-        <a href="#"><img src="img/thx/iconfont.svg" height="30px"></a>
+      <div class="thx" style="line-height: 30px">
+      Support:
+      	<a href="https://getbootstrap.com/"><img src="img/thx/boostrap.svg" height="30px"></a> &middot; 
+        <a href="http://www.bootcdn.cn/"><img src="img/thx/bootcdn.svg" height="30px"></a> &middot; 
+        <a href="http://fontawesome.io/"><img src="img/thx/fontawesome.svg" height="30px"></a> &middot; 
+        <a href="http://www.iconfont.cn/"><img src="img/thx/iconfont.svg" height="30px"></a> &middot; 
+        <a href="https://sm.ms/"><img src="img/thx/smms.svg" height="30px"></a>
       </div>
 
       <hr class="featurette-divider">
       <!-- FOOTER -->
       <footer>
-        <p class="float-right"><a href="https://github.com/UICHCC"><i class="githubIcon">&#xf056;</i>Fork us on GitHub</a></p>
+        <p class="float-lg-right"><a href="https://github.com/UICHCC"><i class="fa fa-github"></i> Fork us on GitHub</a></p>
         <p>&copy; 2017 Homebrew Computer Club @ UIC &middot; <a href="http://www.miitbeian.gov.cn/">粤 ICP 备 15011948 号 - 2</a></p>
       </footer>
 
