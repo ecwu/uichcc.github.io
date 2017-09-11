@@ -101,7 +101,10 @@ body {
   margin-left: .75rem;
 }
 
-
+.projects > .row{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 /* Featurettes
 ------------------------- */
 
