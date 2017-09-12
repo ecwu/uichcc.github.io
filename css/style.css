@@ -52,6 +52,9 @@ body {
   margin-bottom: 2rem;
 }
 
+.headingIcon > i{
+  margin-right: 20px;
+}
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
