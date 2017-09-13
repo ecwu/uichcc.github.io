@@ -55,6 +55,16 @@ body {
 .headingIcon > i{
   margin-right: 20px;
 }
+
+.contact{
+  padding: 1rem;
+}
+.contact > .fa{
+  margin: 0 0 2rem 0;
+}
+.contact > h4{
+  padding-bottom: 1rem;
+}
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
