@@ -1,6 +1,6 @@
 [submodule "projects/gpacal"]
 	path = projects/gpacal
-	url = git://github.com/UICHCC/UIC_GPA_Calculator
+	url = https://github.com/UICHCC/UIC_GPA_Calculator
 [submodule "projects/headphoto"]
 	path = projects/headphoto
-	url = git://github.com/UICHCC/UIC_Headphoto_Synthesizer
+	url = https://github.com/UICHCC/UIC_Headphoto_Synthesizer
