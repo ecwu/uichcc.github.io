@@ -195,7 +195,7 @@ permalink: /404.html
             for(var i=0;i<vars.shapes.length;++i){
                 for(var j=0;j<vars.shapes[i].polys.length;++j){
                     if(i%2){
-                        vars.ctx.globalAlpha=.75;
+                        vars.ctx.globalAlpha=.50;
                         vars.ctx.fillStyle="#c6c6c6";
                         x=vars.shapes[i].x+vars.shapes[i].polys[j].cx;
                         y=vars.shapes[i].y+vars.shapes[i].polys[j].cy;
@@ -306,13 +306,22 @@ permalink: /404.html
 
 
         function Icosahedron(x,y,z){
-
+//正二十面体
             var size=1, phi = 1.61803398875;
             this.polys=[];
             this.x=x, this.y=y, this.z=z, this.dist=0;
-            x1=-phi, y1=-1, z1=0, x2=phi, y2=-1, z2=0, x3=phi, y3=1, z3=0, x4=-phi, y4=1, z4=0,
-                y5=-phi, z5=-1, x5=0, y6=phi, z6=-1, x6=0, y7=phi, z7=1, x7=0, y8=-phi, z8=1, x8=0,
-                z9=-phi, x9=-1, y9=0, z10=phi, x10=-1, y10=0, z11=phi, x11=1, y11=0, z12=-phi, x12=1, y12=0;
+            x1=-phi, y1=-1, z1=0,
+            x2=phi, y2=-1, z2=0,
+            x3=phi, y3=1, z3=0,
+            x4=-phi, y4=1, z4=0,
+            y5=-phi, z5=-1, x5=0,
+            y6=phi, z6=-1, x6=0,
+            y7=phi, z7=1, x7=0,
+            y8=-phi, z8=1, x8=0,
+            z9=-phi, x9=-1, y9=0,
+            z10=phi, x10=-1, y10=0,
+            z11=phi, x11=1, y11=0,
+            z12=-phi, x12=1, y12=0;
             p={}; p.verts=[];
             p.verts.push(new Vert(x1,y1,z1));
             p.verts.push(new Vert(x5,y5,z5));
@@ -477,12 +486,12 @@ permalink: /404.html
             for(var i=0;i<3;++i){
                 var p=PI*2/3*i;
                 x=sin(p)*1.5;
-                y=0
+                y=-i/2;
                 z=cos(p)*1.5;
 
                 shape=new Icosahedron(x,y,z);
                 shape=subdivide(shape,i);
-                shape=expandShape(shape,1)
+                shape=expandShape(shape,1);
                 shape.polys=segmentize(shape.polys);
                 vars.shapes.push(shape);
 
