@@ -177,14 +177,7 @@
 
       <hr class="featurette-divider">
       <!-- FOOTER -->
-      <footer>
-        <div class="float-lg-right">
-          <span>Hosting on</span>
-          <a href="https://github.io/" style="display: inline">
-            <img src="/img/githubpages.svg" style="height: 21px;">
-          </a>
-        </div>
-        <p>&copy; 2017 Homebrew Computer Club &middot; <a href="http://www.miitbeian.gov.cn/">粤 ICP 备 15011948 号 - 2</a></p>
+      <footer id="footer">
       </footer>
 
     </div><!-- /.container -->
@@ -199,5 +192,8 @@
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $( "#footer" ).load( "/module/footer.html" );
+    </script>
   </body>
 </html>
