@@ -3,6 +3,8 @@
 There are still some pages that have not been created and are temporarily connected to the `/404/index.html` page. These temporarily connected pages need to be created in the next day.
 
 --------
+## Site
+- [] Accessibility
 
 ## Home
 - [ ] Slide 2, "We Create." - `Learn More` Link
