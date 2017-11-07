@@ -4,7 +4,7 @@ There are still some pages that have not been created and are temporarily connec
 
 --------
 ## Site
-- [] Accessibility
+- [ ] Accessibility
 
 ## Home
 - [ ] Slide 2, "We Create." - `Learn More` Link
