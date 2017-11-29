@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="keywords" content="UIC, Computer, CS, CST, Computer Science, 计算机, 联合国际学院, 计算机科学, 计算机科学与技术 ">
-    <meta name="description" content="UIC 计算机俱乐部网站 ">
+    <meta name="description" content="UIC HCC 计算机协会网站 ">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>UICHCC - 计算机俱乐部 </title>
+    <title>UIC HCC 计算机协会</title>
     <link rel="icon" href="/img/favicon.ico">
 
     <!-- Bootstrap core CSS -->
@@ -22,7 +22,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function(){
           var typed = new Typed('.element', {
-              strings: ["/(root)", "UX/UI Design Group", "Infrastructure Maintenance Group", "Content Mining Group", "PR &amp; Promotion Group", "Homepage Development Group", "Online Judge Development Group", "UIC Portal APP Development Group", "Open Source Community Group"],
+              strings: ["Core", "UX/UI Design Group", "Infrastructure Maintenance Group", "Content Mining Group", "PR &amp; Promotion Group", "Homepage Development Group", "Online Judge Development Group", "UIC Portal APP Development Group", "Open Source Community Group"],
               stringsElement: null,
               typeSpeed: 100,
               backSpeed: 10,
@@ -84,7 +84,7 @@
             <div class="carousel-caption carousel-caption-dark d-none d-block text-left">
               <h1>Groups</h1>
               <div>
-                <p><kbd><span class="element"></span></kbd> @ Homebrew Computer Club</p>
+                <p><kbd><span class="element"></span></kbd> @ UIC HCC Computer Society</p>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
         <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>/(root)</td>
+          <td>Core</td>
         </tr>
         <tr>
           <th scope="row">2</th>
@@ -141,7 +141,7 @@
           <td>UIC Portal APP Development Group</td>
         </tr>
         <tr>
-          <th scope="row">1</th>
+          <th scope="row">9</th>
           <td>Open Source Community Group</td>
         </tr>
         </tbody>
@@ -152,39 +152,12 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col">
-          <h2 class="featurette-heading">Join us. <span class="text-muted">We'll blow your mind.</span></h2>
-          <p class="lead">
-            We need you. If you have something that can "show off", and you are willing to share it, you are more than
-            welcomed to join us. All our work are opened to the society for free -- free as in freedom, not free beers.
-          </p>
-          <p class="lead">
-            You do not even need to be able to program; we need you for art direction and user experience improvements.
-            If you find something interesting but we are not paying attention to it, please do not hesitate to contact
-            us! You can achieve your dream here!
-          </p>
-          <p>
-            <button class="btn btn-lg btn-danger disabled" type="button" data-toggle="collapse//" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              Coming soon
-            </button><!--delete the `//`-->
-          </p>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">TEST</div>
-          </div>
-        </div>
+      <div id="joinUsInfo">
       </div>
 
       <hr class="featurette-divider">
       <!-- FOOTER -->
-      <footer>
-        <div class="float-lg-right">
-          <span>Hosting on</span>
-          <a href="https://github.io/" style="display: inline">
-            <img src="/img/githubpages.svg" style="height: 21px;">
-          </a>
-        </div>
-        <p>&copy; 2017 Homebrew Computer Club &middot; <a href="http://www.miitbeian.gov.cn/">粤 ICP 备 15011948 号 - 2</a></p>
+      <footer id="footer">
       </footer>
 
     </div><!-- /.container -->
@@ -193,11 +166,15 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
     <script src="/js/popper.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $( "#footer" ).load( "/module/footer.html" );
+        $( "#joinUsInfo" ).load( "/module/joinus.html" );
+    </script>
   </body>
 </html>
