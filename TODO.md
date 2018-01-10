@@ -4,6 +4,7 @@ There are still some pages that have not been created and are temporarily connec
 
 --------
 ## Site
+- [ ] Change to Font Awesome 5.0+ Once Bootcdn is Ready
 - [ ] Accessibility
 
 ## Home
@@ -19,5 +20,5 @@ There are still some pages that have not been created and are temporarily connec
 - [ ] LCbot UICHCC Edition, `View Details` Link
 
 ## About
-- [ ] Introduction
+- [] Introduction
 - [ ] Branding Guideline
