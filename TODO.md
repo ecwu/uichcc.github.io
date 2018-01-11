@@ -20,5 +20,5 @@ There are still some pages that have not been created and are temporarily connec
 - [ ] LCbot UICHCC Edition, `View Details` Link
 
 ## About
-- [] Introduction
+- [ ] Introduction
 - [ ] Branding Guideline
