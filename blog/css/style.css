@@ -257,3 +257,271 @@ body {
 .bs-callout-info h6 {
   color: #5bc0de;
 }
+
+/**
+ * yue.css
+ *
+ * yue.css is designed for readable content.
+ *
+ * https://github.com/lepture/yue.css
+ *
+ * Copyright (c) 2013 - 2017 by Hsiaoming Yang.
+ */
+
+.blog-post {
+  font: 400 18px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  color: #444443;
+}
+
+.windows .blog-post {
+  font-size: 16px;
+}
+
+.blog-post ::-moz-selection {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.blog-post ::selection {
+  background-color: rgba(0,0,0,0.2);
+}
+.blog-post h1,
+.blog-post h2,
+.blog-post h3,
+.blog-post h4,
+.blog-post h5,
+.blog-post h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  color: #222223;
+}
+.blog-post h1 {
+  font-size: 1.8em;
+  margin: 0.67em 0;
+}
+.blog-post > h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+.blog-post h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+.blog-post h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+.blog-post h4,
+.blog-post h5,
+.blog-post h6 {
+  font-size: 1em;
+  margin: 1.6em 0 1em 0;
+}
+.blog-post h6 {
+  font-weight: 500;
+}
+.blog-post p {
+  margin-top: 0;
+  margin-bottom: 1.24em;
+}
+.blog-post a {
+  color: #111;
+  word-wrap: break-word;
+  -webkit-text-decoration-color: rgba(0, 0, 0, 0.4);
+          text-decoration-color: rgba(0, 0, 0, 0.4);
+}
+.blog-post a:hover {
+  color: #555;
+  -webkit-text-decoration-color: rgba(0, 0, 0, 0.6);
+          text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+.blog-post h1 a, .blog-post h2 a, .blog-post h3 a {
+  text-decoration: none;
+}
+.blog-post strong,
+.blog-post b {
+  font-weight: 700;
+  color: #222223;
+}
+.blog-post em,
+.blog-post i {
+  font-style: italic;
+  color: #222223;
+}
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.2em 0;
+}
+.blog-post a img {
+  /* Remove border on IE */
+  border: none;
+}
+.blog-post figure {
+  position: relative;
+  clear: both;
+  outline: 0;
+  margin: 10px 0 30px;
+  padding: 0;
+  min-height: 100px;
+}
+.blog-post figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto auto 4px;
+  box-sizing: border-box;
+}
+.blog-post figure figcaption {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666665;
+}
+.blog-post figure figcaption a {
+  text-decoration: none;
+  color: #666665;
+}
+.blog-post hr {
+  display: block;
+  width: 14%;
+  margin: 40px auto 34px;
+  border: 0 none;
+  border-top: 3px solid #dededc;
+}
+.blog-post blockquote {
+  margin: 0 0 1.64em 0;
+  border-left: 3px solid #dadada;
+  padding-left: 12px;
+  color: #666664;
+}
+.blog-post blockquote a {
+  color: #666664;
+}
+.blog-post ul,
+.blog-post ol {
+  margin: 0 0 24px 6px;
+  padding-left: 16px;
+}
+.blog-post ul {
+  list-style-type: square;
+}
+.blog-post ol {
+  list-style-type: decimal;
+}
+.blog-post li {
+  margin-bottom: 0.2em;
+}
+.blog-post li ul,
+.blog-post li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 14px;
+}
+.blog-post li ul {
+  list-style-type: disc;
+}
+.blog-post li ul ul {
+  list-style-type: circle;
+}
+.blog-post li p {
+  margin: 0.4em 0 0.6em;
+}
+.blog-post .unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.blog-post code,
+.blog-post tt {
+  color: #808080;
+  font-size: 0.96em;
+  background-color: #f9f9f7;
+  padding: 1px 2px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  word-wrap: break-word;
+}
+.blog-post pre {
+  margin: 1.64em 0;
+  padding: 7px;
+  border: none;
+  border-left: 3px solid #dadada;
+  padding-left: 10px;
+  overflow: auto;
+  line-height: 1.5;
+  font-size: 0.96em;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  color: #4c4c4c;
+  background-color: #f9f9f7;
+}
+.blog-post pre code,
+.blog-post pre tt {
+  color: #4c4c4c;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.blog-post table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+  box-sizing: border-box;
+}
+.blog-post th,
+.blog-post td {
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid #dadada;
+}
+.blog-post td {
+  vertical-align: top;
+}
+.blog-post tr:nth-child(even) {
+  background-color: #efefee;
+}
+.blog-post iframe {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.blog-post figure iframe {
+  margin: auto;
+}
+.blog-post table pre {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+@media (min-width: 1100px) {
+  .blog-post blockquote {
+    margin-left: -24px;
+    padding-left: 20px;
+    border-width: 4px;
+  }
+  .blog-post blockquote blockquote {
+    margin-left: 0;
+  }
+}
+
+[lang^="zh"] .blog-post p,
+[lang^="ja"] .blog-post p {
+  text-align: justify;
+  text-justify: inter-ideographic;
+}
+
+[lang^="zh"] .blog-post em,
+[lang^="ja"] .blog-post em {
+  font-style: normal;
+  font-family: Baskerville,Georgia,Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW\\-Kai,serif;
+  -webkit-text-emphasis: dot #555;
+          text-emphasis: dot #555;
+  -webkit-text-emphasis-position: under;
+          text-emphasis-position: under;
+}
