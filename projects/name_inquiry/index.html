@@ -23,15 +23,13 @@
 <nav class="nav-container navbar navbar-expand-md navbar-dark fixed-top marginNavBar" id="navBar">
     <div class="container">
         <div style="visibility: hidden">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
         <img class="navbar-icon mx-auto" src="/img/uichccwhite.svg" style="max-height: 40px;">
         <div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -44,7 +42,7 @@
                     <a class="nav-link" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/projects">Projects <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/groups">Groups</a>
@@ -62,8 +60,7 @@
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active"
-             style="background-image: url(https://i.loli.net/2017/09/11/59b6a89a479a9.jpg);">
+        <div class="carousel-item carousel-item-project active" style="background-image: url(https://i.loli.net/2017/09/11/59b6a89a479a9.jpg);">
             <img class="first-slide" src="https://i.loli.net/2017/09/11/59b6a89a479a9.jpg" alt="First slide">
             <div class="container">
                 <div class="carousel-caption carousel-caption-bright carousel-caption-dark d-none d-block text-left">
@@ -81,68 +78,17 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing projects">
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/img/name_inquiry.png" alt="Generic placeholder image" width="140" height="140">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h2>How Many of You in UIC</h2>
-            <p>
-                We had sorted out the English names of UIC students from 2013 to 2017, see how many people have the same name as you.
-            </p>
-            <p><a class="btn btn-secondary" href="name_inquiry" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/img/gpacal.png" alt="Generic placeholder image" width="140" height="140">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h2>GPA Calculator</h2>
-            <p>
-                Don't know your goal on grades? Want to understand how hard you should study to reach your target GPA?
-                We
-                have this calculator specially tailored for you. Enjoy it, enjoy your life in UIC!
-            </p>
-            <p><a class="btn btn-secondary" href="gpa" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/img/synthesizer.png" alt="Generic placeholder image" width="140" height="140">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h2>UIC Headphoto Synthesizer</h2>
-            <p>
-                Show love to our dearest college. Add a UIC logo on your avatar gracefully using our synthesizer, and be
-                proud of UIC!
-            </p>
-            <p><a class="btn btn-secondary" href="synthesizer" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/img/lcbot.png" alt="Generic placeholder image" width="140" height="140">
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-8">
-            <h2>LCbot UICHCC Edition</h2>
-            <p>
-                To simplify the management of WeChat groups, we modified LCbot, which is made by LinuxCn, to fit in the
-                common use of WeChat groups among UIC teachers and students. You will find it much efficient to manage
-                your
-                large groups using this automatic robot.
-            </p>
-            <p><a class="btn btn-secondary" href="https://github.com/UICHCC/LCBot" role="button">View details
-                &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
-    <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
-
-    <div id="joinUsInfo">
+    <h2>How Many of You in UIC</h2>
+    <code>Author: UICHCC Computer Society</code><br>
+    <code>Developed in cooperation with <br>UICer New Media Studio</code>
+    <div class="text-center"><img class="img-fluid card" src="/uploads/img/uichcc.com_uic_name_inquiry_(iPhone 8).png" style="display: inline; width: 416px;"></div>
+    <p class="text-secondary text-center small">Interface of How Many of You in UIC</p>
+    <div class="text-center">
+        <a class="btn btn-lg btn-primary" href="/projects/names" role="button">Try it Now</a>
+        <a class="btn btn-lg btn-success" href="https://github.com/UICHCC/uic_name_inquiry/" role="button">GitHub</a>
     </div>
+
 
     <hr class="featurette-divider">
     <!-- FOOTER -->
@@ -162,8 +108,7 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/js/ie10-viewport-bug-workaround.js"></script>
 <script>
-    $("#footer").load("/module/footer.html");
-    $("#joinUsInfo").load("/module/joinus.html");
+    $( "#footer" ).load( "/module/footer.html" );
 </script>
 </body>
 </html>

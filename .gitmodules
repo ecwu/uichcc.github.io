@@ -4,3 +4,6 @@
 [submodule "projects/headphoto"]
 	path = projects/headphoto
 	url = https://github.com/UICHCC/UIC_Headphoto_Synthesizer
+[submodule "projects/names"]
+	path = projects/names
+	url = https://github.com/UICHCC/uic_name_inquiry.git
