@@ -7,3 +7,6 @@
 [submodule "projects/names"]
 	path = projects/names
 	url = https://github.com/UICHCC/uic_name_inquiry.git
+[submodule "projects/yuefan"]
+	path = projects/yuefan
+	url = git://github.com/UICHCC/HCC-Yuefan
