@@ -3,21 +3,21 @@
     <head>
     <meta charset="utf-8">
     <meta name="keywords" content="UIC, Computer, CS, CST, Computer Science, 计算机, 联合国际学院, 计算机科学, 计算机科学与技术 ">
-    <meta name="description" content="UIC HCC 计算机协会网站 ">
+    <meta name="description" content="UIC HCC 计算机俱乐部网站 ">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>UIC HCC 计算机协会</title>
+    <title>UIC HCC 计算机俱乐部</title>
     <link rel="icon" href="img/favicon.ico">
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font-awesome CSS -->
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/blog/css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
     <body>
@@ -75,7 +75,7 @@
             <img class="first-slide" src="https://i.loli.net/2018/01/12/5a5851e72c7c2.jpg" alt="First slide">
             <div class="container">
                 <div class="carousel-caption carousel-caption-bright d-none d-block text-left">
-                    <h1>UIC HCC Computer Society · Blog</h1>
+                    <h1>UIC HCC Computer Club · Blog</h1>
                     <p>
                         
                             Abridge you and technology, A bridge between you and technology.
@@ -103,7 +103,7 @@
     <p>最近听说各位DST以及DHSS的小鲜肉们受困于IT课最后的网页project，作为UIC唯一的计算机兴趣组织——计算机俱乐部，帮助各位同学解决这个难题是我们的责任。今天要为大家介绍一种全新的写网页的方式：Bootstrap框架。他可以让网页开发变得十分方便，并且网页会相当美观。<br>让我们先来简单的看一下什么是Bootstrap。<br>Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发,是一个CSS/HTML框架。<br>话不多说，下面开始我们的正式教程。</p>
 <hr>
 <h2 id="第一步：下载Bootstrap"><a href="#第一步：下载Bootstrap" class="headerlink" title="第一步：下载Bootstrap"></a>第一步：下载Bootstrap</h2><p>百度搜索Bootstrap，我们会看到他的中文网站<br>点击进入，点击Bootstrap3中文文档（V3.3.5）<br>点击下载Bootstrap，选择用于生产环境的Bootstrap，然后点击下载<br>下载完成后我们会得到一个解压文件，把他解压出来，我们会得到一个文件夹。<br>然后我们打开这个文件夹会看到三个文件夹，然后我们再创建一个名为img的文件夹（用来存放网站的图片），然后用Notepad++或者其他工具创建HTML文件保存在dist文件夹中。<br>然后我们在Notepad++中复制如下的代码，然后粘贴进这个文件。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span><br><span class="line">    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- Bootstrap --&gt;</span><br><span class="line">    &lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span><br><span class="line">    &lt;!-- WARNING: Respond.js doesn&apos;t work if you view the page via file:// --&gt;</span><br><span class="line">    &lt;!--[if lt IE 9]&gt;</span><br><span class="line">      &lt;script src=&quot;http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">      &lt;script src=&quot;http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;![endif]--&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;你好，世界！&lt;/h1&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- jQuery (necessary for Bootstrap&apos;s JavaScript plugins) --&gt;</span><br><span class="line">    &lt;script src=&quot;http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;</span><br><span class="line">    &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</span><br><span class="line">    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- Bootstrap --&gt;</span><br><span class="line">    &lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span><br><span class="line">    &lt;!-- WARNING: Respond.js doesn&apos;t work if you view the page via file:// --&gt;</span><br><span class="line">    &lt;!--[if lt IE 9]&gt;</span><br><span class="line">      &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">      &lt;script src=&quot;http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;![endif]--&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;你好，世界！&lt;/h1&gt;</span><br><span class="line"> </span><br><span class="line">    &lt;!-- jQuery (necessary for Bootstrap&apos;s JavaScript plugins) --&gt;</span><br><span class="line">    &lt;script src=&quot;http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    &lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;</span><br><span class="line">    &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <p>中间的body部分就是我们需要编辑的部分了。至此，我们已经完成了第一步！</p>
 <h2 id="第二步：运用Bootstrap可视化布局网页"><a href="#第二步：运用Bootstrap可视化布局网页" class="headerlink" title="第二步：运用Bootstrap可视化布局网页"></a>第二步：运用Bootstrap可视化布局网页</h2><p>百度Bootstrap之后，我们发现在官方网站下面有一个Bootstrap可视化布局系统的网页，点击进入！<br>中间的空白部分就是你的网页了，我们可以用左边的工具进行网页的规划。<br>首先是布局设置<br>Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口<code>（viewport）</code>尺寸的增加，系统会自动分为最多12列。说白了就是Bootstrap会把你的网页分成12列，你想怎么分都可以，只要让和等于12就行，如上图所示。<br>我们把12这一行拖入右边的空白区域，这样就生成了一个铺满全屏的一块区域，我们可以把他当做网页的导航栏。<br>接着我们规划网页的其他部分，这里我们采用<strong>2 6 4</strong>布局，将他拖入右边的白色部分。这部分就作为网页的正文部分。<br>我们的网页可能还需要一个页脚，所以我们再把一个12拖进右边，放在最下面。<br>至此，网页的布局设置就已经完成了！</p>
 <h2 id="第三步：往网页中添加各种组件"><a href="#第三步：往网页中添加各种组件" class="headerlink" title="第三步：往网页中添加各种组件"></a>第三步：往网页中添加各种组件</h2><p>首先，我们先添加一个导航栏。点击交互组件，把导航栏拖动到第一行中。<br>然后我们可以在第二行的左边添加一个导航列表。点击组件，把导航列表拖进对应位置。<br>中间的部分我们可以放置网页的正文，我们可以先拖入一个标题栏，然后点击编辑设置文字，然后根据自己网页的需求放置相应的组件。<br>这里小编随意设置了几个组件放在里面。右边的部分我们也可以根据这个步骤添加自己喜欢的组件。<br>最后，我们要在第三行设置网页的页脚选择基本CSS，把段落拖进第三行，对齐方式选择居中，然后编辑文字。最后我们得到的成品如下：<br>第三步就完成了！</p>
@@ -120,7 +120,7 @@
             <img src="/blog/img/githubpages.svg" height="21px">
         </a>
     </div>
-    <p>&copy; 2017-2018 UIC HCC Computer Society
+    <p>&copy; 2017-2018 UIC HCC Computer Club
     </p>
 </footer>
             <!-- After footer scripts -->
@@ -128,8 +128,8 @@
         <!-- Bootstrap core JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <!-- Popper rely for Bootstrap -->
 <script src="/blog/js/popper.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
