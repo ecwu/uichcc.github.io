@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html id="html" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>UICHCC Computer Club | Technological Salon</title>
+    <meta name="description" content="UIC HCC 计算机俱乐部网站">
+    <meta name="author" content="UIC HCC Computer Club">
+    <meta name="generator" content="Hugo 0.49.2" />
+    <style type="text/css">
+    body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+        margin: 0;
+        padding: 0;
+    }
+    * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+    :before, :after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+    img, object, embed {max-width: 100%; height: auto;}
+    object, embed {height: 100%;}
+    img { margin: 1.25% 0; -ms-interpolation-mode: bicubic; }
+    html {
+        background-color: #F0F1F3;
+        padding: 2%;
+    }
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        color: #242424;
+        max-width: 800px;
+        margin: 5% auto;
+       
+    }
+    body::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    header {
+        margin-bottom: 8%;
+    }
+    footer {
+        text-align: center;
+    }
+    h1, h2, h3, h4, h5, h1 a {
+        color: #263A48;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    h1, h2 {
+        font-size: 36px;
+        padding-bottom: 0.3em;
+        margin-bottom: 0.4em;
+        border-bottom: 1px solid #eee
+    }
+    h2 {
+        font-size: 22px;
+        padding-bottom: 0.6em;
+        margin-bottom: 0.6em;
+        margin-top: 2.5em;
+    }
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0.3em;
+    }
+    h1 small a {
+        color: #98999C;
+        font-size: 15px;
+        font-weight: normal;
+        float: right;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    section {
+        background: #fff;
+        margin-bottom: 1%;
+        position: relative;
+        padding: 6% 8%;
+    }
+    blockquote {
+        border-left: 3px solid #d54e21;
+        font-size: 16px;
+        padding: 0 0 0 20px;
+        color: #d54e21;
+    }
+    blockquote a {
+        color: #d54e21;
+        font-weight: 500;
+    }
+    blockquote code {
+        color: #d54e21;
+    }
+    code, cite {
+        background-color: #F0F2F4;
+        border-radius: 3px;
+        color: #000;
+        font: monospace;
+        padding: 2px 7px;
+    }
+    a {
+        color: #1e8cbe;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: #d54e21;
+    }
+    ul {
+        list-style: none;
+    }
+    ol {
+        list-style: number;
+    }
+    ol li {
+        color: #98999C;
+        margin-bottom: 5px;
+    }
+    ol li:last-child {
+        margin-bottom: 0;
+    }
+    p, ul, ol, blockquote  {
+        margin-bottom: 4%;
+    }
+    ul ul {
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-left: 4%;
+    }
+    ul ul li:before {
+        content: '-';
+        display: inline-block;
+        padding-right: 2%;
+    }
+
+    ul.col-2 {
+        color: #98999C;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+
+    @media screen and (min-width: 500px) {
+        ul.col-2 {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            -webkit-column-gap: 20px;
+            -moz-column-gap: 20px;
+            column-gap: 20px;
+        }
+    }
+    nav {
+        background: #F0F1F3;
+        min-width: 215px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    nav:first-of-type a {
+        color: #d54e21;
+        border-radius: 0;
+    }
+    nav:first-of-type a:hover {
+        color: #d54e21;
+    }
+    nav:first-of-type a:before {
+        background-color: #d54e21;
+    }
+    nav.affix {
+        position: fixed;
+        top: 20px;
+    }
+    nav.affix-bottom {
+        position: absolute;
+    }
+    nav a {
+        border-radius: 3px;
+        font-size: 15px;
+        display: block;
+        cursor: pointer;
+        font-weight: 500;
+        position: relative;
+        text-decoration: none; 
+        padding: 10px 12px;
+        width: 100%;
+        padding-right: 3px;
+        border-bottom: 2px solid #fff;
+    }
+    nav a:before {
+        content: '';
+        width: 4px;
+        display: block;
+        left: 0;
+        position: absolute;
+        height: 100%;
+        display: none;
+        background: #1e8cbe;
+        top: 0;
+    }
+    nav a:hover {
+        background-color: #E6E8EA;
+        color: #1e8cbe;
+        text-decoration: underline;
+    }   
+    nav a:hover:before {
+        display: block;
+    }
+    nav a:last-of-type {
+        border-bottom: none;
+    }
+    .gist {
+        margin-top: 5.1%;
+        margin-bottom: 5%;
+    }
+    @media screen and (max-width: 1050px) {
+        body {
+            margin: 0 auto;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        header span {
+            display: none;
+        }
+        h1 {
+            font-size: 26px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }   
+    @media screen and (max-width: 514px) {
+        p, ul, ol, blockquote  {
+            margin-bottom: 8%;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <section id="Menu">
+        <header>
+            <h1>Technological Salon @ UICHCC</h1>
+            <p>The Salon is an academic sharing event organized by the HCC Computer Club. All UIC students, faculty, or others are welcome to attend. <br><br>This website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. <br><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="CC-BY-SA" /></p>
+        </header>
+        <nav>
+        
+            <a href="https://uichcc.com" target="blank">UICHCC Homepage</a>
+        
+            <a href="mailto:affairs@uichcc.com?subject=I%20want%20to%20be%20a%20speaker&amp;body=%2F*%20Please%20Introduce%20yourself%20and%20your%20topic%20here%20*%2F" target="blank">Want to be a speaker?</a>
+        
+        </nav>
+        <nav>
+        
+            <a href="#2018-1111-ljj-collaboratingandconverging">Collaborating and Converging - By Terence Lau</a>
+        
+            <a href="#2018-1111-wqz-speakingofstoragedevices">Speaking of Storage Devices - By Wang Qizheng</a>
+        
+            <a href="#archive-zjr-speakingofgit">Speaking of Git VCS - By Zhong Junru</a>
+        
+            <a href="#archive-lmy-knowledgeispowerintroductiontoinformationsecurity">Knowledge is Power: Introduction to Information Security - By Junde Yhi</a>
+        
+        </nav>
+    </section>
+
+    
+
+    <section id="2018-1111-ljj-collaboratingandconverging">
+
+        <h1><a href="#2018-1111-ljj-collaboratingandconverging">Collaborating and Converging - By Terence Lau</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h3 id="coming-soon-salon">COMING SOON SALON</h3>
+
+<p>Topic: <strong>Collaborating and Converging</strong><br />
+Speaker: Terence Lau (<code>STAT Year 3</code>)<br />
+Location: T8-306 (BNU-HKBU UIC)<br />
+Time: 2018.11.11 20:00-21:00</p>
+
+<p><img src="img/1111_jjl_cac_post.jpg" alt="Poster" /></p>
+
+
+    </section>
+
+    
+
+    <section id="2018-1111-wqz-speakingofstoragedevices">
+
+        <h1><a href="#2018-1111-wqz-speakingofstoragedevices">Speaking of Storage Devices - By Wang Qizheng</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h3 id="coming-soon-salon">COMING SOON SALON</h3>
+
+<p>Topic: <strong>Speaking of Storage Devices</strong><br />
+Speaker: Wang Qizheng (<code>CST Year 2</code>)<br />
+Location: T8-306 (BNU-HKBU UIC)<br />
+Time: 2018.11.11 19:00-20:00</p>
+
+<p><img src="img/1111_qzw_sosd_post.jpg" alt="Poster" /></p>
+
+
+    </section>
+
+    
+
+    <section id="archive-zjr-speakingofgit">
+
+        <h1><a href="#archive-zjr-speakingofgit">Speaking of Git VCS - By Zhong Junru</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Topic: <strong>Speaking of Git VCS</strong><br />
+Speaker: Zhong Junru (<code>Class of 2018 CST</code>)<br />
+Location: T8-305 (BNU-HKBU UIC)<br />
+Time: N/A</p>
+
+<p><strong>Speaking of Git VCS</strong> is a lecture for all students in BNU-HKBU United International College. The lecture introduce the basic usage of Git version control system and GitHub.</p>
+
+<p><a href="https://github.com/UICHCC/HCC-Lectures/tree/master/Speaking-of-Git-VCS">Course Material</a></p>
+
+<p><img src="img/archive_zjr_speakingofgit.png" alt="" /></p>
+
+
+    </section>
+
+    
+
+    <section id="archive-lmy-knowledgeispowerintroductiontoinformationsecurity">
+
+        <h1><a href="#archive-lmy-knowledgeispowerintroductiontoinformationsecurity">Knowledge is Power: Introduction to Information Security - By Junde Yhi</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Topic: <strong>Knowledge is Power: Introduction to Information Security</strong><br />
+Speaker: Junde Yhi (<code>CST Y3</code>)<br />
+Location: T29-106 (BNU-HKBU UIC)<br />
+Time: 2017.11.28</p>
+
+<p>This is a lecture given by Junde Yhi on the Computer Carnival of BNU-HKBU UIC on November 28, 2017, introducing concepts of information security.<br />
+The provided <a href="https://raw.githubusercontent.com/UICHCC/HCC-Lectures/master/Introduction-to-Information-Security/2017-11-28-knowledge-is-power-mdp.md">.md file</a> is a mdp file. You may use it to play the slides.</p>
+
+<p><img src="img/archive_lmy_knowledgeispowerintroductiontoinformationsecurity.png" alt="Poster" /></p>
+
+
+    </section>
+
+    
+
+</body>
+</html>

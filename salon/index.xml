@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UICHCC Computer Club | Technological Salon</title>
+    <link>https://uichcc.com/</link>
+    <description>Recent content on UICHCC Computer Club | Technological Salon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 20:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://uichcc.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Collaborating and Converging - By Terence Lau</title>
+      <link>https://uichcc.com/2018-1111-ljj-collaboratingandconverging/</link>
+      <pubDate>Sun, 11 Nov 2018 20:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/2018-1111-ljj-collaboratingandconverging/</guid>
+      <description>COMING SOON SALON Topic: Collaborating and Converging
+Speaker: Terence Lau (STAT Year 3)
+Location: T8-306 (BNU-HKBU UIC)
+Time: 2018.11.11 20:00-21:00</description>
+    </item>
+    
+    <item>
+      <title>Speaking of Storage Devices - By Wang Qizheng</title>
+      <link>https://uichcc.com/2018-1111-wqz-speakingofstoragedevices/</link>
+      <pubDate>Sun, 11 Nov 2018 19:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/2018-1111-wqz-speakingofstoragedevices/</guid>
+      <description>COMING SOON SALON Topic: Speaking of Storage Devices
+Speaker: Wang Qizheng (CST Year 2)
+Location: T8-306 (BNU-HKBU UIC)
+Time: 2018.11.11 19:00-20:00</description>
+    </item>
+    
+    <item>
+      <title>Speaking of Git VCS - By Zhong Junru</title>
+      <link>https://uichcc.com/archive-zjr-speakingofgit/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:10 +0800</pubDate>
+      
+      <guid>https://uichcc.com/archive-zjr-speakingofgit/</guid>
+      <description>Topic: Speaking of Git VCS
+Speaker: Zhong Junru (Class of 2018 CST)
+Location: T8-305 (BNU-HKBU UIC)
+Time: N/A
+Speaking of Git VCS is a lecture for all students in BNU-HKBU United International College. The lecture introduce the basic usage of Git version control system and GitHub.
+Course Material</description>
+    </item>
+    
+    <item>
+      <title>Knowledge is Power: Introduction to Information Security - By Junde Yhi</title>
+      <link>https://uichcc.com/archive-lmy-knowledgeispowerintroductiontoinformationsecurity/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/archive-lmy-knowledgeispowerintroductiontoinformationsecurity/</guid>
+      <description>Topic: Knowledge is Power: Introduction to Information Security
+Speaker: Junde Yhi (CST Y3)
+Location: T29-106 (BNU-HKBU UIC)
+Time: 2017.11.28
+This is a lecture given by Junde Yhi on the Computer Carnival of BNU-HKBU UIC on November 28, 2017, introducing concepts of information security.
+The provided .md file is a mdp file. You may use it to play the slides.</description>
+    </item>
+    
+  </channel>
+</rss>
