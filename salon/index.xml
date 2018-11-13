@@ -6,10 +6,24 @@
     <description>Recent content on UICHCC Computer Club | Technological Salon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Nov 2018 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 18 Nov 2018 20:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://uichcc.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bootstrap Crash Course - By Zhenghao Wu</title>
+      <link>https://uichcc.com/2019-1118-wzh-bscc/</link>
+      <pubDate>Sun, 18 Nov 2018 20:00:00 +0800</pubDate>
+      
+      <guid>https://uichcc.com/2019-1118-wzh-bscc/</guid>
+      <description>COMING SOON SALON Topic: Bootstrap Crash Course
+Speaker: Zhenghao Wu (CST Year 3)
+Location: T8-306 (BNU-HKBU UIC)
+Time: 2018.11.18 20:00-21:00
+ If you want to participate in this salon, I suggest you have the following knowledge: HTML fundamentals, basic knowledge of CSS.
+ Abstract: Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. It is easy to use and has a modern and simple design. This course will introduce you to the features of Bootstrap 4 and help you apply Bootstrap to your own website or web application.</description>
+    </item>
     
     <item>
       <title>Protect Your Information With VeraCrypt - By Minyong Li</title>
